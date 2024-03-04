@@ -9,7 +9,7 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
 
 # Installation and Usage
 
-1. Download the Repo: ``git clone https://github.com/NorthernChicken/github-contrib-grinder``
+1. Download the Repo: ``git clone https://github.com/NorthernChicken/github-contrib-grinder-main``
 2. Enter the downloaded directory: ``cd github-contrib-grinder``
 3. Install requirements: ``pip install -r requirements.txt``
 4. Setup GitHub Access Token:
