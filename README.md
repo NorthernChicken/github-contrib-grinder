@@ -22,6 +22,9 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
   * Paste the Access code in "secrets.json" under "github_access_token"
 5. Run main.py to begin
 
+![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/bdb6cdb5-bda6-49d3-9746-533871497ef9)
+Results after running for 20 minutes on an alt. Note that not every contribution that the bot sends will make it through, and GitHub will flag most of them as spam.
+
 # DISCLAIMER
 
 I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only open issues on this repository.
