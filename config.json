@@ -1,0 +1,10 @@
+{
+    "repo_info":{
+        "repo_owner":"Enter your username here in all lowercase- Example: northernchicken",
+        "repo_name":"github-contrib-grinder"
+    },
+    "issue_info":{
+        "title":"Automated Issue",
+        "body":"This issue was opened automatically using this bot: https://github.com/NorthernChicken/github-contrib-grinder"
+    }
+}
