@@ -21,3 +21,7 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
   * Generate the token and copy the Access Code
   * Paste the Access code in "secrets.json" under "github_access_token"
 5. Run main.py to begin
+
+# DISCLAIMER
+
+I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only open issues on this repository.
