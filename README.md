@@ -20,7 +20,8 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
   * Generate a new classic token and under "select scopes" check "repo"
   * Generate the token and copy the Access Code
   * Paste the Access code in "secrets.json" under "github_access_token"
-5. Run main.py to begin
+5. Run main.py to begin. Enter the number of contributions you would like to make.
+6. Enter the delay between contributions. A lower number contributes faster but increases the risk of Github limiting your API usage. A good amount is between 20-30 seconds.
 
 ![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/bdb6cdb5-bda6-49d3-9746-533871497ef9)
 Results after running for 20 minutes on an alt. Note that not every contribution that the bot sends will make it through, and GitHub will flag most of them as spam.
