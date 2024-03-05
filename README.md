@@ -31,4 +31,4 @@ If GitHub limits your requests (Status code 403), then either wait a while or tu
 
 # DISCLAIMER
 
-I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only open issues on this repository.
+I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only bot issues on this repository or one of your own.
