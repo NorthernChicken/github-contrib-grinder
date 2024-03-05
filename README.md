@@ -25,6 +25,8 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
 ![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/bdb6cdb5-bda6-49d3-9746-533871497ef9)
 Results after running for 20 minutes on an alt. Note that not every contribution that the bot sends will make it through, and GitHub will flag most of them as spam.
 
+If GitHub rate limits your requests (Status code 403), then either wait a while or turn on a VPN.
+
 # DISCLAIMER
 
 I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only open issues on this repository.
