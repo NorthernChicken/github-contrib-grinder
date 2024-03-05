@@ -14,7 +14,7 @@ def create_github_issue(repo_owner, repo_name, title, body, access_token):
     }
     response = requests.post(url, headers=headers, json=data)
     if response.status_code == 201:
-        return
+        print("Contribution number " + str(requests_sent) + " out of " + str(num_contribs) + " created successfully")
     else:
         print(f"Failed to contact GitHub. Status code: {response.status_code}")
 
@@ -31,10 +31,10 @@ body = config["issue_info"]["body"]
 access_token = secrets["secrets"]["github_access_token"]
 
 num_contribs = int(input("How many contributions would you like to automate?"))
-requests_sent = 0
+contribs_delay = int(input("How long should the delay be between contribs? (In seconds. Shorter times may result in being rate limited by github faster): "))
+requests_sent = 1
 
 for contribs in range(num_contribs):
     create_github_issue(repo_owner, repo_name, title, body, access_token)
-    print("Contribution number " + str(requests_sent) + " out of " + str(num_contribs) + " created successfully")
     requests_sent += 1
-    time.sleep(0.25)
+    time.sleep(contribs_delay)
