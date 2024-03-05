@@ -29,6 +29,8 @@ Results after running for 20 minutes on an alt. Note that not every contribution
 
 If GitHub limits your requests (Status code 403), then either wait a while or turn on a VPN. You might also want to try another repository. By default, it opens issues on this repo, but I've found that changing repos occasionally in config.json can solve some problems. If you make your own private repo for that purpose, then make sure "Include private contributions on my profile" is selected in Public Profile settings.
 
+Basically any problems with Github limiting your API usage are cleared up if you just wait a few hours.
+
 # DISCLAIMER
 
 I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only bot issues on this repository or one of your own.
