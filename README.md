@@ -25,7 +25,9 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
 ![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/bdb6cdb5-bda6-49d3-9746-533871497ef9)
 Results after running for 20 minutes on an alt. Note that not every contribution that the bot sends will make it through, and GitHub will flag most of them as spam.
 
-If GitHub rate limits your requests (Status code 403), then either wait a while or turn on a VPN.
+# Troubleshooting
+
+If GitHub rate limits your requests (Status code 403), then either wait a while or turn on a VPN. You might also want to try another repository. By default, it opens issues on this repo, but I've found that changing repos occasionally in config.json can solve some problems. If you make your own private repo for that purpose, then make sure "Include private contributions on my profile" is selected in Public Profile settings.
 
 # DISCLAIMER
 
