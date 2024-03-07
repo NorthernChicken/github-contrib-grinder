@@ -24,11 +24,14 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
 6. Enter the delay between contributions. A lower number contributes faster but increases the risk of Github limiting your API usage. A good amount is between 20-30 seconds.
 
 ![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/bdb6cdb5-bda6-49d3-9746-533871497ef9)
-Results after running for 20 minutes on an alt. Note that not every contribution that the bot sends will make it through, and GitHub will flag most of them as spam.
+
+Results after running for 20 minutes on an alt. Note that the number of contributions in a certain time depends on your contribution delay.
 
 # Troubleshooting
 
-If GitHub limits your requests (Status code 403), then either wait a while or turn on a VPN. You might also want to try another repository. By default, it opens issues on this repo, but I've found that changing repos occasionally in config.json can solve some problems. If you make your own private repo for that purpose, then make sure "Include private contributions on my profile" is selected in Public Profile settings.
+If GitHub limits your requests (Status code 403), then you just have to wait a few hours. Try increasing the contribution delay to avoid detection. 
+
+By default, the bot opens issues on this repo, but I've found that changing repos occasionally in config.json can solve some problems. If you make your own private repo for that purpose, then make sure "Include private contributions on my profile" is selected in Public Profile settings, or the contributions won't show on your profile.
 
 Basically any problems with Github limiting your API usage are cleared up if you just wait a few hours.
 
