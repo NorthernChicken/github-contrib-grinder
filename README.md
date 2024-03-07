@@ -38,3 +38,5 @@ Basically any problems with Github limiting your API usage are cleared up if you
 # DISCLAIMER
 
 I am not responsible for any damages incurred by the use of this bot. Please use responsibly and only bot issues on this repository or one of your own.
+
+While you likely won't get banned for using this, use at your own discretion.
