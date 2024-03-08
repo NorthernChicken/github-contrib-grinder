@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import sys
+from datetime import datetime
 
 def create_github_issue(repo_owner, repo_name, title, body, access_token):
     global requests_sent
@@ -19,7 +20,8 @@ def create_github_issue(repo_owner, repo_name, title, body, access_token):
     except Exception as e:
         print("Could not reach Github. Check your internet connection.")
     if response.status_code == 201:
-        print("Contribution number " + str(requests_sent) + " out of " + str(num_contribs) + " created successfully")
+        time = datetime.now()
+        print(time + " Contribution number " + str(requests_sent) + " out of " + str(num_contribs) + " created successfully")
     elif response.status_code == 429:
         print("Github is rate limiting you! Please wait or turn on a VPN.")
         requests_sent -= 1
