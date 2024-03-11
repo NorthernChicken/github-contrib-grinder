@@ -27,6 +27,10 @@ Using this bot, you can finally achieve that shiny, solid-green contribution his
 
 Results after running for 20 minutes on an alt. Note that the number of contributions in a certain time depends on your contribution delay.
 
+![image](https://github.com/NorthernChicken/github-contrib-grinder/assets/144752748/8c8e5e2e-fdde-4c2c-8e87-32474bc434a4)
+
+The same alt after testing for a week. Over 7 days I got a total of 1,662 contributions, or about 237 contributions per day. My alt never got banned/blocked over the week.
+
 # Troubleshooting
 
 If GitHub limits your requests (Status code 403), then you just have to wait a few hours. Try increasing the contribution delay to avoid detection. 
